@@ -1,0 +1,5 @@
+<view class="container">
+  <i class="iconfont icon-soushuo find"></i>
+  <input class="bar" placeholder="{{placeholder}}" placeholder-class="in-bar" bindinput="onInput"></input>
+  <button wx:if="{{button==='true'}}" class="search" bindtap="onSearch">搜索</button>
+</view>

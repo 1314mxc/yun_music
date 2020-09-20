@@ -1,0 +1,9 @@
+<view class="wrap" bindtouchstart="start" bindtouchend="end" bindtap="click" hover-class="hoverclass">
+  <text></text>
+  <text></text>
+  <text></text>
+  <text></text>
+  <view>Better in the Future</view>
+  <view style="font-size:27rpx;line-height: 35rpx;">未来会更好</view>
+  <view style="font-size:20rpx;">（长按点亮黑夜并松手，拯救网“抑”云）</view>
+</view>

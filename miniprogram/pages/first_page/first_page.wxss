@@ -1,0 +1,80 @@
+page{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  background: #031321;
+  font-family: consolas;
+}
+.wrap{
+  width: 500rpx;
+  margin: 30vh auto;
+  position: relative;
+  display: inline-block;
+  padding: 15px 30rpx;
+  color: rgb(37, 132, 240);
+  text-transform: uppercase;
+  letter-spacing: 4rpx;
+  text-decoration: none;
+  font-size: 37rpx;
+  overflow: hidden;
+  transition: 0.2s;
+  line-height: 60rpx;
+  text-align: center;
+}
+.hoverclass{
+   color: #031321;
+   background: rgb(37, 132, 240);
+   box-shadow: 0 0 10px rgb(37, 132, 240), 0 0 40px rgb(37, 132, 240), 0 0 80px rgb(37, 132, 240);
+   transition-delay:1s ;
+}
+.wrap text{
+  position: absolute;
+  display: block;
+}
+.wrap text:nth-child(1){
+  top: 0;
+  left: -100px;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg,transparent,rgb(37, 132, 240));
+}
+.hoverclass text:nth-child(1){
+  left: 100%;
+  transition: 1s;
+}
+.wrap text:nth-child(3){
+  bottom: 0;
+  right: -100px;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg,transparent,rgb(37, 132, 240));
+}
+.hoverclass text:nth-child(3){
+  right: 100%;
+  transition: 1s;
+  transition-delay: 0.5s;
+}
+.wrap text:nth-child(2){
+  top: -100%;
+  right: 0;
+  width:2px ;
+  height: 100%;
+  background: linear-gradient(270deg,transparent,rgb(37, 132, 240));
+}
+.hoverclass text:nth-child(2){
+  top: 100%;
+  transition: 1s;
+  transition-delay: 0.25s;
+}
+.wrap text:nth-child(4){
+  bottom: -100%;
+  left: 0;
+  width:2px ;
+  height: 100%;
+  background: linear-gradient(360deg,transparent,rgb(37, 132, 240));
+}
+.hoverclass text:nth-child(4){
+  bottom: 100%;
+  transition: 1s;
+  transition-delay: 0.75s;
+}
